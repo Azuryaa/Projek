@@ -72,7 +72,6 @@ header h1{
   align-items: center;
   justify-content: centr ;
   width: 75px;
-
 }
 .list-left img{
  width: 100px;
@@ -81,7 +80,7 @@ header h1{
   width: 60px;
 }
 #img-perplexity{
-  width: 20px;
+  width: 125px;
 }
 .tag{
   color: #2e0bdf;
