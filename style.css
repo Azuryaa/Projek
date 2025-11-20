@@ -1,0 +1,128 @@
+*{
+  font-family: Comic Sans MS;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+p{
+  font-size: 17px;
+}
+header{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 1rem 1rem;
+}
+header h1{
+  font-size: 2rem;
+  
+}
+#jam{
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.text{
+  align-items: center;
+  width: 85%;
+  max-width: 1100px;
+  margin: 40px auto 0 auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.ai{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  width: 95%;
+  max-width:1200px;
+  margin: 35px auto 0 auto
+}
+.ai h3{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.list{
+  padding: 1rem 2rem;
+  display: flex;
+}
+.list-left{
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: centr ;
+  width: 75px;
+
+}
+.list-left img{
+ width: 100px;
+}
+#img-gpt{
+  width: 60px;
+}
+.tag{
+  color: #2e0bdf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+.list-mid{
+  flex: 1;
+  margin-right: 20px;
+}
+.list-mid h3{
+  margin: 0;
+}
+.list-mid p{
+  margin: 6px 0;
+}
+.list-right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#link{
+  padding: 10px 16px;
+  background: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+#link:hover{
+  background: black;
+  color: white;
+  border: 1px solid black;
+}
+.bawah{
+  display: flex;
+  flex-direction: column;
+   background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+}
