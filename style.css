@@ -66,12 +66,12 @@ header h1{
   display: flex;
 }
 .list-left{
-  margin-right: 250px;
+  margin-right: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: centr ;
-  width: 75px;
+  width: 175px;
 }
 .list-left img{
  width: 100px;
@@ -88,7 +88,7 @@ header h1{
 }
 .list-mid{
   flex: 1;
-  margin-right: 200px;
+  margin-right: 20px;
 }
 .list-mid h3{
   margin: 0;
