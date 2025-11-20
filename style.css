@@ -80,6 +80,9 @@ header h1{
 #img-gpt{
   width: 60px;
 }
+#img-perplexity{
+  width: 200px;
+}
 .tag{
   color: #2e0bdf;
   display: flex;
